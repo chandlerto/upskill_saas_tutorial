@@ -20,3 +20,15 @@
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif;
  }
+ 
+body, .navbar {
+  background: #4568DC;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(left, #B06AB3, #4568DC);
+  background: -moz-linear-gradient(left, #B06AB3, #4568DC);
+  background: -o-linear-gradient(left, #B06AB3, #4568DC);
+  background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+.navbar {
+  border: none;
+}
